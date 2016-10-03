@@ -1,5 +1,6 @@
 # About
 Just a simple script to be executed in your local git repository folder to spoof commits as someone else.
+Will be improved a whole lot later.
 
 # Installation
 Either execute the below script, or clone the repository and `chmod +x spoofcommit` to make the file executable.
