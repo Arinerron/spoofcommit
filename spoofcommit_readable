@@ -2,7 +2,7 @@
 
 command -v recode >/dev/null 2>&1 || { echo >&2 "Package dependency \"recode\" isn\'t installed. You can install it using \"sudo apt-get install recode\"."; exit 1; }
 
-git add .;
+git add . > /dev/null;
 
 username=$(git config user.name);
 email=$(git config user.email);
