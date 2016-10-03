@@ -23,10 +23,10 @@ fi;
 
 read -p "Enter a commit message:" message;
 
-git config user.name "$spoofas";
-git config user.email "$spoofasemail";
+git config --global user.name "$spoofas";
+git config --global user.email "$spoofasemail";
 
 git commit -m "$message";
 
-git config user.name "$username";
-git config user.email "$email";
+git config --global user.name "$username";
+git config --global user.email "$email";
