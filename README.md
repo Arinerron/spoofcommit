@@ -4,7 +4,7 @@ Just a simple script to be executed in your local git repository folder to spoof
 # Installation
 Either execute the below script, or clone the repository and `chmod +x spoofcommit` to make the file executable.
 ```
-mkdir -p $HOME/bin/;wget https://raw.githubusercontent.com/Arinerron/spoofcommit/master/spoofcommit -O $HOME/bin/spoofcommit -q;chmod +x $HOME/bin/spoofcommit;echo "spoofcommit has been installed to $(echo \"$HOME/bin/spoofcommit\"). You can either add the folder to your PATH, or you can execute \". ~/bin/spoofcommit\" from the folder containing your git repository.";
+mkdir -p $HOME/bin/;wget https://raw.githubusercontent.com/Arinerron/spoofcommit/master/spoofcommit -O $HOME/bin/spoofcommit -q;chmod +x $HOME/bin/spoofcommit;clear;echo "spoofcommit has been installed to $(echo \"$HOME/bin/spoofcommit\"). You can either add the folder to your PATH, or you can execute \". ~/bin/spoofcommit\" from the folder containing your git repository.";
 ```
 
 # Usage
