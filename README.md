@@ -9,4 +9,4 @@ mkdir -p $HOME/bin/;wget https://raw.githubusercontent.com/Arinerron/spoofcommit
 ```
 
 # Usage
-Rather than doing `git commit -m "example"`, execute the spoofcommit script with no parameters. It will ask you for the username (and in some cases, the email) and the commit message.
+Rather than doing `git commit`, execute the spoofcommit script with no parameters. It will ask you for the username (and in some cases, the email) and the commit message.
